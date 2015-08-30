@@ -22,7 +22,7 @@ def main():
 
     print(abs(diff))
 
-
+#sum left to right diagonal
 def left_diagonal_sum(matrix,matrix_size):
 
     sum = 0
@@ -31,7 +31,7 @@ def left_diagonal_sum(matrix,matrix_size):
 
     return sum
 
-
+#sum right to left diagonal
 def right_diagonal_sum(matrix,matrix_size):
 
     sum = 0
